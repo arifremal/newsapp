@@ -22,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "business",
-        element: <News key="business" pageSize={6} country="us" category="business"/>,
+        element: <News key="business" pageSize={6}  country="us" category="business"/>,
       },
         {path: "sports",
         element: <News key="sports" pageSize={6} country="us" category="sports"/>,
