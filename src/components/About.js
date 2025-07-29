@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
-export class About extends Component {
-  render() {
+const About =()=>{
+
     return (
       <div>About route </div>
     )
-  }
+  
 }
 
 export default About
